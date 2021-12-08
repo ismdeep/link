@@ -1,0 +1,7 @@
+[server]
+    bind    = '0.0.0.0:8000'
+    site    = 'http://172.17.0.1:8000'
+
+[db]
+    dialect = 'mysql'
+    dsn     = 'root:link123456@tcp(127.0.0.1:10003)/link?parseTime=true&loc=Local&charset=utf8mb4,utf8'
